@@ -1,6 +1,8 @@
 ---
-title: My GitHub Pages Site
+title: "CHan Nok Hang 陳諾恒"
 layout: default
+author: "CHan Nok Hang"
+description: "Student at National Yang Ming Chiao Tung University"
 ---
 ## CHan Nok Hang 陳諾恒
 ## Biography
