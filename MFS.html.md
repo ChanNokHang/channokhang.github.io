@@ -10,6 +10,6 @@ If you ask me about favourite food, what i can say is I don't know.
 Foods, drinks, desserts, I love all I can eat, but I do prefer meat rather than vegitable. In such case, hotpot buffet or regular buffet is kind of a safe go to.
 
 ## Smiles 😆😄😃
-In free time, I enjoy and spend time to reading novels, listening music🎶, gaming, but most of the time I'm sleeping.
+In free time, I enjoy and spend time to reading novels📚, listening music🎶, gaming🎮, but most of the time I'm sleeping😴.
 
 
