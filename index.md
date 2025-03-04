@@ -6,7 +6,7 @@ layout: default
 ## Biography
 - 🎓 I am a finance and data science researcher.
 - 📈 Interested in systemic risk and stock market analysis.
-- 🔍 Using Granger causality to analyze financial bubbles.
+- 🔍 Using Granger causality to analyze interconnectedness between Taiwan stocks.
 
 ## Contact
 - 📧 Email: m97907555@gmail.com / jasonchan.mg12@nycu.edu.tw
