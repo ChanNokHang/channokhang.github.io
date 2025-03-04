@@ -12,7 +12,7 @@ I am a Master's student at National Yang Ming Chiao Tung University, studied in 
 - 🔍 Using Granger causality to analyze interconnectedness between Taiwan stocks.
 
 ## Contact
-- 📧 Email: [m97907555@gmail.com](m97907555@gmail.com) / [jasonchan.mg12@nycu.edu.tw](jasonchan.mg12@nycu.edu.tw)
+- 📧 Email: m97907555@gmail.com) / jasonchan.mg12@nycu.edu.tw
 - 🔗 GitHub: [ChanNokHang](https://github.com/ChanNokHang)
 
 
