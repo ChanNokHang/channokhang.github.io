@@ -13,3 +13,6 @@ layout: default
 - 🔗 [GitHub Profile](https://github.com/ChanNokHang)
 
 ## Education
+
+## Additional Resources
+- [Map, Food, Smiles](https://channokhang.github.io/MFS.html)
