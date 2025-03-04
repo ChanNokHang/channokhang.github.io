@@ -3,7 +3,7 @@
 *Created by Chan Nok Hang on 20250305*
 
 ## Map
-I was born in Hong Kong. I'm studied in Hong Kong untill finished my undergradurate degree in The Hang Seng University of Hong Kong (HSUHK). After that, I move to Hsin Chu for a master's degree. At the monment, I am studying at National Yang Ming Chiao Tung University.
+I was born in Hong Kong. I'm studied in Hong Kong untill finished my undergradurate degree in The Hang Seng University of Hong Kong ([HSUHK](https://www.hsu.edu.hk/en/)). After that, I move to Hsin Chu for a master's degree. At the monment, I am studying at National Yang Ming Chiao Tung University.
 
 ## Food
 If you ask me about favourite food, what i can say is I don't know.
