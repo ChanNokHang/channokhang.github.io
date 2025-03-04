@@ -1,0 +1,6 @@
+title: CHan Nok Hang 陳諾恒
+description: Students at National Yang Ming Chiao Tung University, Department of Information Management and Finance
+theme: jekyll-theme-slate
+markdown: kramdown
+plugins:
+  - jekyll-feed
