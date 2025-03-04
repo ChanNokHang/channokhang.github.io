@@ -10,7 +10,8 @@ layout: default
 
 ## Contact
 - 📧 Email: m97907555@gmail.com / jasonchan.mg12@nycu.edu.tw
-- 🔗 [GitHub Profile](https://github.com/ChanNokHang)
+- 🔗 GitHub: [ChanNokHang](https://github.com/ChanNokHang)
+
 
 ## 🏫 Education
 ### National Yang Ming Chiao Tung University ([NYCU](https://www.nycu.edu.tw/))
