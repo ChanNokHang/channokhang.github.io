@@ -5,7 +5,7 @@ author: "CHan Nok Hang"
 description: "Student at National Yang Ming Chiao Tung University"
 ---
 ## CHan Nok Hang 陳諾恒
-## Biography
+## About Me
 I am a Master's student at National Yang Ming Chiao Tung University, studied in finance, statistics, and data science. My research focuses on systemic risk, financial networks, and machine learning applications in finance. I am recently interested in applying graphical models and Granger causality to detect stocks interconnection and market dynamics.
 - 🎓 Finance and data science researcher.
 - 📈 Interested in systemic risk and stock market analysis.
