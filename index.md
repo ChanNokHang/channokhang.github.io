@@ -18,7 +18,7 @@ I am a Master's student at National Yang Ming Chiao Tung University, Department 
 
 ## 🏫 Education
 ### National Yang Ming Chiao Tung University ([NYCU](https://www.nycu.edu.tw/))
-- MSc in Information Management and Finance (Sep 2023 - June 2025)  
+- MSc in Information Management and Finance (Sep 2023 - Aug 2025)  
   - Adviser: [Prof. Huei-Wen Teng](https://venteng.github.io/)  
   - Thesis: *Mapping Risk Contagion through Graphical Models and Early Warning Signals in Taiwan’s Stock Market*
 
