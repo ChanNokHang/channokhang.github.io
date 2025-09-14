@@ -6,7 +6,7 @@ description: "Student at National Yang Ming Chiao Tung University"
 ---
 ## Chan Nok Hang 陳諾恒
 ## About Me
-Currently a PhD student at National Yang Ming Chiao Tung University, Department of Information Management and Finance. I'm studied in finance and data science. My research focuses on systemic risk, graphical model, financial networks, and machine learning applications in finance. I am recently researched in applying graphical models with Granger causality and Functional Structural Equation Model (FSEM) to capture stocks interconnection and market dynamics in Taiwan.
+Currently a PhD student at National Yang Ming Chiao Tung University, Department of Information Management and Finance. I studied finance and data science. My research focuses on systemic risk, graphical model, financial networks, and machine learning applications in finance. I am recently researched in applying graphical models with Granger causality and Functional Structural Equation Model (FSEM) to capture stocks interconnection and market dynamics in Taiwan.
 - 🎓 Finance and data science researcher.
 - 📈 Interested in systemic risk, stock market analysis, and machine learning.
 - 🔍 Using Granger causality to analyze interconnectedness between Taiwan stocks.
