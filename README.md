@@ -31,3 +31,9 @@ The network uses real XYZ coordinates, perspective projection and depth-sorted S
 spheres. Drag rotates the view; arrow keys and rotation buttons work too. Use the
 zoom slider or +/- keys. Selection, ripple, reset and new constellation are retained.
 This is a lightweight 3D projection, without WebGL or external libraries.
+
+## Dense personal workbench
+The homepage uses a compact desktop grid: intro/network, research and background,
+then a small garden and interests. Mobile stacks content in reading order.
+Operation controls use inline SVG icons with accessible names and hover/focus labels.
+Body text remains 17px; density comes from spacing and layout rather than tiny type.
