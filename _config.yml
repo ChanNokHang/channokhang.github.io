@@ -1,6 +1,16 @@
 title: Chan Nok Hang 陳諾恒
-description: Students at National Yang Ming Chiao Tung University (NYCU)
-theme: jekyll-theme-slate
+description: Finance and data science researcher at National Yang Ming Chiao Tung University.
+url: "https://channokhang.github.io"
+baseurl: ""
 markdown: kramdown
-plugins:
-  - jekyll-feed
+permalink: pretty
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
