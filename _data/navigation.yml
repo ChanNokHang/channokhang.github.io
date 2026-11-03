@@ -1,10 +1,8 @@
-- title: Home
-  url: /
+- title: About
+  url: /#about
 - title: Research
-  url: /research/
-- title: CV
-  url: /cv/
-- title: Teaching
-  url: /teaching/
-- title: Beyond research
-  url: /MFS.html
+  url: /#research
+- title: Background
+  url: /#background
+- title: Beyond
+  url: /#beyond

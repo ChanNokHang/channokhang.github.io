@@ -35,3 +35,11 @@ After deployment, check navigation, `/MFS.html`, mobile layout, and CV printing.
 ## Design
 Warm paper background, deep blue typography, teal accents, system fonts and a decorative
 SVG network illustration. The illustration is not empirical research data.
+
+## Compact interactive homepage
+The main navigation now points to sections of the homepage. Older Research, CV,
+Teaching and personal URLs remain available. Edit homepage copy in index.md.
+Optional dependency-free interactions live in assets/js/home.js: topic buttons,
+node selection, dragging, arrow-key movement and layout reset. The network is an
+illustration, not real data. No autoplay animation or external requests are used.
+Native details/summary elements keep education, teaching and hobbies usable without JavaScript.
