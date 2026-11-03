@@ -22,3 +22,12 @@ bundle exec jekyll serve
 ```
 Open http://127.0.0.1:4000. Build with bundle exec jekyll build.
 Review the PR before merging into main for GitHub Pages deployment.
+
+## Depth and reading update
+Profile content is always visible: there are no disclosure sections or topic tabs.
+Each section uses its own tinted surface. Body copy is larger, with serif display
+headings, humanist section headings and monospace labels.
+The network uses real XYZ coordinates, perspective projection and depth-sorted SVG
+spheres. Drag rotates the view; arrow keys and rotation buttons work too. Use the
+zoom slider or +/- keys. Selection, ripple, reset and new constellation are retained.
+This is a lightweight 3D projection, without WebGL or external libraries.
