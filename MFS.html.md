@@ -1,15 +1,23 @@
-# Map, Food, Smiles
+---
+title: Beyond research
+permalink: /MFS.html
+intro: Map, Food, Smiles — a few things about life outside research.
+---
+## Map
+### Hong Kong → Hsinchu
 
-*Created by Chan Nok Hang on 20250305*
+I grew up in Hong Kong and completed my undergraduate degree at The Hang Seng University of Hong Kong. I then moved to Hsinchu for a master's degree at National Yang Ming Chiao Tung University, where I am now pursuing a PhD.
 
-## Map 🗺️
-I was born in Hong Kong. I'm studied in Hong Kong untill finished my undergradurate degree in The Hang Seng University of Hong Kong ([HSUHK](https://www.hsu.edu.hk/en/)). After that, I move to Hsin Chu for a master's degree. At the monment, I am studying at National Yang Ming Chiao Tung University.
+## Food
+### Always room for a good meal.
 
-## Food 🍟🍖🍣
-If you ask me about favourite food, what i can say is I don't know.
-Foods, drinks, desserts, I love all I can eat, but I do prefer meat rather than vegitable. In such case, hotpot buffet or regular buffet is kind of a safe go to.
+I enjoy food, drinks, and desserts, with a particular preference for meat dishes. A hotpot buffet is usually a safe choice.
 
-## Smiles 😆😄😃
-In free time, I enjoy and spend time to reading novels📚, listening music🎶, gaming🎮, but most of the time I'm sleeping😴.
+## Smiles
+### Books, music, games — and a little rest.
 
+Outside research, I enjoy reading novels, listening to music, gaming, and catching up on sleep.
 
+---
+
+[Back to the academic side →]({{ '/' | relative_url }})
