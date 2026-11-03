@@ -1,5 +1,7 @@
 (() => {
 'use strict';
+function revealAnchor(){const id=location.hash.slice(1);const target=document.getElementById(id);if(target && target.tagName==='DETAILS')target.open=true;}
+window.addEventListener('hashchange',revealAnchor);revealAnchor();
 const topics = {
  risk: ['How are markets connected?', 'Financial networks offer a way to examine interconnectedness and how risk may spread among stocks.'],
  graphs: ['Making relationships visible.', 'I use Granger causality and functional structural equation models (FSEM) to examine relationships among stocks.'],
@@ -16,6 +18,7 @@ document.querySelectorAll('[data-topic]').forEach(button => {
 });
 const svg = document.getElementById('play-network');
 if (!svg) return;
+const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const ns = 'http://www.w3.org/2000/svg';
 const initial = [[65,100],[145,45],[285,65],[355,155],[290,245],[135,250],[205,150]];
 const nodes = initial.map(([x,y],i) => ({x,y,label:String.fromCharCode(65+i)}));
@@ -51,4 +54,34 @@ circles.forEach((c,i)=>{
 });
 document.getElementById('reset-network').addEventListener('click',()=>{nodes.forEach((n,i)=>{[n.x,n.y]=initial[i];});selected=null;document.getElementById('network-status').textContent='Layout reset. Select a node to explore its connections.';draw();});
 draw();
+let pulseTimer;
+function clearPulse(){clearTimeout(pulseTimer); circles.forEach(c=>c.classList.remove('ripple-node'));}
+document.getElementById('send-pulse').addEventListener('click',()=>{
+ clearPulse();
+ const start=selected===null?6:selected;
+ select(start);
+ const distances=nodes.map(()=>Infinity);distances[start]=0;const queue=[start];
+ while(queue.length){const a=queue.shift();edges.forEach(([u,v])=>{const b=u===a?v:v===a?u:null;if(b!==null&&distances[b]===Infinity){distances[b]=distances[a]+1;queue.push(b);}});}
+ circles.forEach((c,i)=>{c.style.animationDelay=reduceMotion.matches?'0ms':(distances[i]*220)+'ms';c.classList.add('ripple-node');});
+ document.getElementById('network-status').textContent='A ripple from '+nodes[start].label+' follows the illustrative links. This is a visual toy, not a financial model.';
+ pulseTimer=setTimeout(clearPulse,1800);
+});
+document.getElementById('shuffle-network').addEventListener('click',()=>{clearPulse();nodes.forEach((n,i)=>{const angle=(i/nodes.length)*Math.PI*2+Math.random()*.5;move(i,210+Math.cos(angle)*140,150+Math.sin(angle)*100);});document.getElementById('network-status').textContent='A new layout, the same connections.';});
+document.getElementById('reset-network').addEventListener('click',clearPulse);
+const garden=document.getElementById('idea-garden');
+let planted=0;
+function plant(x,y){
+ if(planted>=18){garden.replaceChildren();planted=0;}
+ const g=document.createElementNS(ns,'g');g.setAttribute('class','garden-flower');
+ const color=['#17665b','#b46b3d','#786698'][planted%3];
+ const add=(tag,attrs)=>{const e=document.createElementNS(ns,tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));g.append(e);};
+ add('path',{d:'M'+x+' 190 Q'+(x-8)+' '+(y+30)+' '+x+' '+y,stroke:'#70927b',fill:'none','stroke-width':2});
+ for(let a=0;a<6;a++){const angle=a*Math.PI/3;add('circle',{cx:x+Math.cos(angle)*10,cy:y+Math.sin(angle)*10,r:7,fill:color});}
+ add('circle',{cx:x,cy:y,r:5,fill:'#f1d58c'});garden.append(g);planted++;
+ document.getElementById('garden-status').textContent=planted+' little idea'+(planted===1?'':'s')+' planted.';
+}
+garden.addEventListener('click',e=>{const m=garden.getScreenCTM();if(!m)return;const p=new DOMPoint(e.clientX,e.clientY).matrixTransform(m.inverse());plant(Math.max(22,Math.min(418,p.x)),Math.max(25,Math.min(155,p.y)));});
+garden.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();plant(30+Math.random()*380,30+Math.random()*120);}});
+document.getElementById('clear-garden').addEventListener('click',()=>{garden.replaceChildren();planted=0;document.getElementById('garden-status').textContent='A fresh page. Plant another idea.';});
+document.addEventListener('visibilitychange',()=>{if(document.hidden)clearPulse();});
 })();
