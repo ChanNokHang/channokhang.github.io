@@ -16,3 +16,26 @@
 @media(max-width:620px){.desk-section{grid-template-columns:1fr;padding:20px}.city-journey svg{min-height:110px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.ripple-node{stroke:#b46b3d!important;stroke-width:7!important}}
 @media print{.network-lab,.desk-section,.print-profile,.hobby-notes{display:none!important}.home-section{padding:15px 0}.compact-hero{padding:0}.hero-copy{max-width:none}}
+
+/* Sculpted surfaces and readable editorial typography. */
+body{font-family:Verdana,'Segoe UI','Noto Sans TC',sans-serif;font-size:18px;line-height:1.85;background:#f2f0e9}
+:root{--muted:#40535d;--serif:Charter,'Palatino Linotype',Georgia,serif}
+h1,h2{font-family:var(--serif)}h3{font-family:'Trebuchet MS','Segoe UI',sans-serif;font-weight:650}
+.eyebrow,.number,.lab-badge{font-family:Consolas,'Courier New',monospace;font-size:13px;letter-spacing:1px}
+.home{width:min(1200px,calc(100% - 48px))}.home>section{border:0;border-radius:26px;padding:38px;margin:26px 0;box-shadow:0 14px 35px -24px #183a4866,inset 0 1px #ffffffb3}
+.home>.compact-hero{background:linear-gradient(135deg,#fffdf8,#e3ede9);padding:40px}
+#research{background:linear-gradient(135deg,#edf3f9,#e1e9f2)}
+#background{background:linear-gradient(135deg,#fcf1e3,#f0e4d4)}
+#desk{background:linear-gradient(135deg,#e1eee7,#d3e5df)}
+#beyond{background:linear-gradient(135deg,#f4eaf2,#e9e2f0)}
+.network-lab{background:radial-gradient(ellipse at 30% 20%,#fff,#d3e4dc);border:1px solid #fff;border-radius:24px;box-shadow:12px 20px 32px -18px #173d4b88,inset 0 2px 4px #fff}
+#play-network{touch-action:none;cursor:grab;background:radial-gradient(ellipse at 50% 85%,#617f7626,transparent 50%)}
+#play-network:active{cursor:grabbing}#play-network:focus-visible{outline:3px solid var(--accent);border-radius:12px}
+#play-network circle{fill:#277e73;filter:drop-shadow(2px 4px 2px #174c4b55)}#play-network circle.selected{fill:#c2793c}#play-network text{font:14px Consolas,monospace;fill:#193a43}
+.rotation-controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.rotation-controls button{font:inherit;font-size:14px;background:#fff9;border:1px solid #a6bdb3;border-radius:9px;padding:8px;cursor:pointer}.rotation-controls label{display:flex;align-items:center;gap:8px;font-size:14px}.rotation-controls input{width:90px;accent-color:var(--accent)}
+.lab-heading .eyebrow{font-size:13px}#network-status{font-size:15px;line-height:1.6}.demo-note,.lab-controls span{font-size:13px;line-height:1.6}.node-controls button,.lab-controls button,.toy-actions button,.desk-section button{font-size:14px;min-height:40px}.node-controls button{min-width:40px}
+.research-lenses{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin:28px 0}.research-lenses article{border-top:3px solid #527992;padding:18px 0}.research-lenses h3{font-size:23px}.research-lenses p{font-size:17px}
+.visible-heading{font-size:22px;padding:18px 0;margin:0}.detail-label{font:14px Consolas,monospace;color:#465862}.profile-detail{margin-top:15px;border-color:#d3bfa6}.profile-detail>div{padding-left:0}.profile-detail p,.timeline p,.beyond-section p,.desk-section p{font-size:17px;line-height:1.85}.timeline h3{font-size:19px}.timeline time{font:15px Consolas,monospace}.timeline article{grid-template-columns:130px 1fr;padding:14px 0 18px 20px}.hobby-notes>div{border-bottom:1px solid #cec1d5;padding-bottom:14px}.hobby-notes .visible-heading{padding-bottom:0;font-size:20px}.hero-role{font-size:16px}.city-journey figcaption{font-size:13px}.contact-inline{padding-inline:30px}.contact-inline a{font-size:17px}
+@media(max-width:900px){.compact-hero{grid-template-columns:1fr}.research-lenses{grid-template-columns:1fr;gap:8px}.network-lab{max-width:550px;justify-self:center;width:100%}}
+@media(max-width:620px){.home{width:calc(100% - 24px)}.home>section,.home>.compact-hero{padding:24px 20px;border-radius:18px;margin:16px 0}.timeline article{grid-template-columns:1fr}.compact-hero h1{font-size:40px}.rotation-controls label{width:100%}.detail-label{display:block;float:none;margin:7px 0}.contact-inline{padding-inline:10px}}
+@media print{.home>section{background:white!important;box-shadow:none;padding:12px 0;margin:0}.research-lenses{display:block}.network-lab,.desk-section{display:none!important}.hobby-notes{display:block!important}}
